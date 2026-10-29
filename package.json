@@ -1,0 +1,26 @@
+{
+  "name": "agent-bounty-feed-client",
+  "version": "1.0.0",
+  "description": "Zero-dependency MCP and HTTP client for Agent Bounty Feed (Node.js & Python)",
+  "type": "module",
+  "main": "cli.mjs",
+  "bin": {
+    "agent-bounty-feed": "./cli.mjs"
+  },
+  "scripts": {
+    "start": "node cli.mjs list",
+    "stats": "node cli.mjs stats",
+    "test": "node test.mjs",
+    "test:python": "python test_client.py"
+  },
+  "keywords": [
+    "mcp",
+    "ai-agent",
+    "bounty",
+    "model-context-protocol",
+    "agent-bounty-feed",
+    "taskmarket"
+  ],
+  "author": "Rohank143",
+  "license": "MIT"
+}
